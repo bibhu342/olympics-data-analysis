@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="visuals/github_banner.png" alt="Olympics Data Analysis — SQL + Python Capstone" width="90%">
+</p>
+
 # 🏅 Olympics Data Analysis — SQL + Python Capstone
 **By Bibhudendu Behera | Data Analyst & AI Engineer Aspirant**
 
@@ -218,6 +222,7 @@ Bibhudendu Behera
 
 📘 License
 MIT License © 2025 Bibhudendu Behera
+
 
 
 
