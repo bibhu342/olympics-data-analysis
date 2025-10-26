@@ -125,9 +125,10 @@ Through **descriptive statistics**, **correlation**, and **predictive modeling**
 AI Engineer Aspirant | Data Analyst | Python & SQL Specialist  
 📍 Bangalore, India  
 🔗 [LinkedIn](https://www.linkedin.com/in/bibhudendu-behera-b5375b5b)  
-🌐 [GitHub](https://github.com/)
+🌐 [GitHub]([https://github.com/](https://github.com/bibhu342/olympics-data-analysis/tree/main))
 
 ---
 
 ## 📚 License
 This project is shared under the MIT License for educational purposes.
+
