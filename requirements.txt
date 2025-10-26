@@ -1,0 +1,13 @@
+# Olympics Data Analysis — Requirements
+# Created for SQL + Python hybrid workflow (Bibhudendu Behera)
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+statsmodels>=0.14.0
+sqlite-utils>=3.36.0
+jupyterlab>=4.0.0
+psycopg[binary]>=3.2.0  # optional, for PostgreSQL integration
+ipykernel>=6.28.0
+
