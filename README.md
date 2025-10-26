@@ -1,5 +1,3 @@
-![Olympic Data Analysis Banner](visuals/github_banner.png)
-
 # 🏅 Olympic Performance Analysis — Data Storytelling Project  
 **By Bibhudendu Behera | Data Analyst & AI Engineer Aspirant**
 
@@ -158,4 +156,5 @@ olympics-data-analysis/
 
 ## 📘 License
 MIT License © 2025 Bibhudendu Behera
+
 
