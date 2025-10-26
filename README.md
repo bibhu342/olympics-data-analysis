@@ -203,14 +203,21 @@ ipykernel>=6.28.0
 ```
 
 👨‍💻 Author
+
 Bibhudendu Behera
+
 📍 Bangalore, India
+
 💼 Data Analyst | AI Engineer Aspirant | SQL & Python Specialist
+
 🔗 [LinkedIn](https://www.linkedin.com/in/bibhudendu-behera-b5375b5b)
+
 🌐 [GitHub](https://github.com/bibhu342)
+
 ✉️ bibhu342@gmail.com
 
 📘 License
 MIT License © 2025 Bibhudendu Behera
+
 
 
