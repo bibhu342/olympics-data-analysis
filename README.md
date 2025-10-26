@@ -132,31 +132,32 @@ It combines structured SQL querying, exploratory data analysis, regression model
 
 ---
 
-## 🧱 Project Structure
+## 📂 Project Structure
 
+```
 olympics-data-analysis/
 ├── data/
-│ ├── athlete_events.csv
-│ └── noc_regions.csv
+│   ├── athlete_events.csv
+│   └── noc_regions.csv
 │
 ├── notebooks/
-│ ├── milestone1_sql_analysis.ipynb
-│ ├── milestone2_descriptive.ipynb
-│ ├── milestone3_correlation.ipynb
-│ ├── milestone4_storytelling.ipynb
-│ └── olympics_capstone_merged.ipynb
+│   ├── milestone1_sql_analysis.ipynb
+│   ├── milestone2_descriptive.ipynb
+│   ├── milestone3_correlation.ipynb
+│   ├── milestone4_storytelling.ipynb
+│   └── olympics_capstone_merged.ipynb
 │
 ├── visuals/
-│ ├── medal_distribution.png
-│ ├── gender_trends.png
-│ ├── mei_by_country.png
-│ └── api_by_sport.png
+│   ├── medal_distribution.png
+│   ├── gender_trends.png
+│   ├── mei_by_country.png
+│   └── api_by_sport.png
 │
 ├── milestone2_summary/
 ├── milestone3_summary/
 └── requirements.txt
 
----
+```
 
 ## ⚙️ Setup & Execution
 
@@ -210,3 +211,4 @@ Bibhudendu Behera
 
 📘 License
 MIT License © 2025 Bibhudendu Behera
+
