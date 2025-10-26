@@ -1,84 +1,94 @@
-# 🏅 Olympic Performance Analysis — Data Storytelling Project
-*By Bibhudendu Behera | Data Analyst & AI Engineer Aspirant*
+![Olympic Data Analysis Banner](visuals/github_banner.png)
+
+# 🏅 Olympic Performance Analysis — Data Storytelling Project  
+**By Bibhudendu Behera | Data Analyst & AI Engineer Aspirant**
 
 ---
 
-## 📖 Overview
-This project analyzes over 120 years of Olympic Games data (1896–2016) to uncover **patterns in athlete performance, country dominance, and gender participation**.  
-Through **descriptive statistics**, **correlation**, and **predictive modeling**, it identifies key performance drivers and introduces new performance metrics — transforming raw data into actionable insights for sports management and policy.
+## 📖 Project Overview
+This project explores 120 years of Olympic data (1896–2016) to uncover **patterns in athlete performance, gender participation, and national efficiency**.  
+Using Python-based exploratory data analysis, regression, and KPI design, it transforms raw sports data into **strategic insights** for performance improvement and global equality.
 
 ---
 
 ## 🎯 Objectives
-- Understand historical trends in medals, sports, and gender inclusion  
-- Discover correlations between athlete attributes and medal outcomes  
-- Develop new KPIs to measure country-level and sport-level efficiency  
-- Tell a compelling data story supported by visuals and analytics  
+- Perform descriptive statistics to understand Olympic medal distributions.  
+- Analyze relationships between athlete traits (age, height, weight) and success.  
+- Examine gender and country-level performance trends over time.  
+- Build new efficiency metrics to quantify country and sport-level outcomes.  
 
 ---
 
-## 📂 Dataset
+## 🧩 Dataset
 **Files Used:**
-- `athlete_events.csv` — athlete-level performance and demographics  
-- `noc_regions.csv` — country code mappings  
+- `athlete_events.csv` → Athlete-level data (Age, Height, Weight, Medal, Sport, Year).  
+- `noc_regions.csv` → Maps NOC codes to regions.  
 
-**Data Summary:**
-- **Rows:** 271,116 | **Columns:** 15  
-- **Years Covered:** 1896–2016  
-- **Features:** Name, Sex, Age, Height, Weight, Team, Sport, Event, Medal  
-
----
-
-## 🧮 Methodology
-| Phase | Focus | Key Tools |
-|-------|--------|-----------|
-| **Milestone 1** | Project proposal & hypothesis definition | Markdown, Research |
-| **Milestone 2** | Descriptive statistics & visual insights | Pandas, Matplotlib, Seaborn |
-| **Milestone 3** | Correlation, regression & new metrics | Numpy, Statsmodels, Scikit-learn |
-| **Milestone 4** | Storytelling & executive presentation | Jupyter, Markdown, PowerPoint |
+**Dataset Summary:**
+| Feature | Description |
+|----------|--------------|
+| Age | Athlete’s age during the event |
+| Height | Athlete’s height (cm) |
+| Weight | Athlete’s weight (kg) |
+| Team / NOC | Country representation |
+| Sport / Event | Sport type |
+| Medal | Gold / Silver / Bronze / NaN |
 
 ---
 
-## 📊 Exploratory Insights (Milestone 2)
-**1. Medal Distribution**
-- Athletics and Swimming dominate with ~40% of total medals.
-- USA, USSR/Russia, Germany, and China top the medal tables.
-
-**2. Gender Participation**
-- Female participation rose sharply post-1980, from 25% to 45%.  
-- Equal representation projected by 2032.
-
-**3. Country Dominance**
-- Developed nations sustain consistent medal growth.
-- Emerging countries show participation rise, but low medal conversion.
+## 🧮 Tools & Libraries
+| Category | Libraries |
+|-----------|------------|
+| Data Handling | `pandas`, `numpy` |
+| Visualization | `matplotlib`, `seaborn` |
+| Statistics & Modeling | `statsmodels`, `scikit-learn` |
+| Presentation | `jupyter`, `markdown` |
 
 ---
 
-## 🔍 Beyond Descriptive Stats (Milestone 3)
+## 📊 Exploratory Analysis
 
-### **A. Key Correlations**
-| Variables | Correlation (r) | Interpretation |
-|------------|----------------|----------------|
-| Height ↔ Medal | +0.27 | Taller athletes perform better in strength sports |
-| Weight ↔ Medal | +0.22 | Moderate positive link with medal success |
-| Age ↔ Medal | -0.12 | Younger athletes excel in agility-based sports |
-| GDP per capita ↔ Medal Efficiency | +0.35 | Wealthier nations convert training into results |
+### 1️⃣ Medal Distribution
+- Athletics and Swimming contribute ~40% of total medals.  
+- USA, Russia, Germany, and China dominate overall medal counts.  
+**→ Insight:** Certain sports and nations exhibit systemic dominance.
 
-### **B. Regression Summary**
-- **Model:** Logistic Regression (Medal ~ Age + Height + Weight)  
-- **Result:** Height and Weight are significant positive predictors (p < 0.05).  
-- **Insight:** Physical advantage varies strongly by sport category.
+### 2️⃣ Gender Participation
+- Female participation steadily increased from 1900 onward.  
+- Post-1980 surge: from 25% (1980) to 45% (2016).  
+**→ Insight:** Post Title IX and policy reforms triggered equity progress.
+
+### 3️⃣ Country Dominance
+- Medal share highly concentrated among top 5 NOCs.  
+- Emerging countries improving but still lagging in medal efficiency.  
 
 ---
 
-## 🧩 Custom Metrics Developed
+## 🔍 Advanced Analysis (Correlations & Regression)
+
+### **Key Correlations**
+| Relationship | Correlation (r) | Interpretation |
+|---------------|----------------|----------------|
+| Height ↔ Medal | +0.27 | Taller athletes succeed in strength sports |
+| Weight ↔ Medal | +0.22 | Slight positive effect on medal probability |
+| Age ↔ Medal | -0.12 | Younger athletes excel in speed/agility events |
+| GDP ↔ MEI | +0.35 | Wealthier nations perform more efficiently |
+
+### **Regression (Medal Probability Model)**
+- **Model:** Logistic Regression (Medal ~ Age + Height + Weight).  
+- **Significance:** Height, Weight → p < 0.05 (positive impact).  
+- **Conclusion:** Physical advantage explains ~30% of variance in outcomes.  
+
+---
+
+## 🧮 New Metrics Introduced
 
 | Metric | Formula | Purpose |
 |---------|----------|----------|
-| **Medal Efficiency Index (MEI)** | Total Medals / Total Athletes | Measures how effectively a country converts participation into medals |
-| **Age Performance Index (API)** | Avg Medalist Age / Avg Athlete Age | Identifies whether sports favor younger or older athletes |
+| **Medal Efficiency Index (MEI)** | Medals / Athletes | Evaluates country performance efficiency |
+| **Age Performance Index (API)** | Avg Medalist Age / Avg Athlete Age | Reveals optimal age balance by sport |
 
-**Example Results**
+**Example Outputs:**
 | Country | MEI | API |
 |----------|-----|-----|
 | USA | 0.42 | 0.95 |
@@ -87,49 +97,65 @@ Through **descriptive statistics**, **correlation**, and **predictive modeling**
 
 ---
 
-## 📈 Visual Highlights
-- Medal counts by country (bar chart)
-- Gender participation trend (line plot)
-- Correlation heatmap of athlete traits
-- Scatter: Height vs. Medal Probability
-- MEI Comparison by Country (bar chart)
+## 📈 Key Visuals
+| Visual | Description |
+|---------|-------------|
+| 🏆 `medal_distribution.png` | Top 10 sports by medals |
+| 👩‍🎤 `female_participation_trend.png` | Growth of female athletes (1900–2016) |
+| 🧩 `correlation_heatmap.png` | Relationship between numerical variables |
+| 🧮 `regression_results.png` | Medal probability vs. height/weight |
+| 🌍 `country_efficiency_mei.png` | Efficiency index by NOC |
 
 ---
 
-## 💡 Insights Summary
-1. **Height and weight** predict medal probability in power sports.  
-2. **Younger athletes** dominate high-speed categories (gymnastics, sprinting).  
-3. **Economic development** correlates with medal conversion efficiency.  
-4. **Female inclusion** improved drastically post-1980.  
+## 💡 Insights
+1. Height and weight are meaningful predictors of medal likelihood.  
+2. Wealthier nations show higher efficiency in medal conversion.  
+3. Female representation improved significantly post-1980.  
+4. Age-performance relationships differ by sport category.  
 
 ---
 
 ## 🧭 Recommendations
-- Encourage **gender equity programs** in underrepresented sports.  
-- Support **emerging nations** with athlete training infrastructure.  
-- Integrate **data-driven performance tracking** in national Olympic committees.  
-- Extend analysis to **2020–2024 Olympics** for post-pandemic comparison.
+- **IOC Focus:** Support developing nations with strong MEI potential.  
+- **Policy:** Encourage gender equity in endurance sports.  
+- **Training Analytics:** Introduce age-specific optimization frameworks.  
+- **Next Steps:** Extend dataset to 2020–2024 Games for post-pandemic impact study.
 
 ---
 
-## 🧰 Tools & Technologies
-**Languages & Libraries:** Python, Pandas, NumPy, Matplotlib, Seaborn, Statsmodels  
-**Environment:** Jupyter Notebook  
-**Version Control:** Git & GitHub  
-**Visualization Tools:** Power BI / Tableau (optional)
+## 📁 Project Structure
+
+olympics-data-analysis/
+├── data/
+│   ├── athlete_events.csv
+│   └── noc_regions.csv
+│
+├── notebooks/
+│   ├── milestone2_descriptive.ipynb
+│   ├── milestone3_correlation.ipynb
+│   └── milestone4_storytelling.ipynb
+│
+├── visuals/
+│   ├── medal_distribution.png
+│   ├── correlation_heatmap.png
+│   ├── gender_trends.png
+│   └── mei_by_country.png
+│
+└── README.md
 
 ---
 
 ## 👨‍💻 Author
 **Bibhudendu Behera**  
-AI Engineer Aspirant | Data Analyst | Python & SQL Specialist  
 📍 Bangalore, India  
+💼 Data Analyst | AI Engineer Aspirant | SQL & Python Specialist  
 🔗 [LinkedIn](https://www.linkedin.com/in/bibhudendu-behera-b5375b5b)  
-🌐 [GitHub]([https://github.com/][(https://github.com/bibhu342/olympics-data-analysis/tree/main))]
+🌐 [GitHub](https://github.com/bibhu342)  
+✉️ Contact: *bibhu342@gmail.com*  
 
 ---
 
-## 📚 License
-This project is shared under the MIT License for educational purposes.
-
+## 📘 License
+MIT License © 2025 Bibhudendu Behera
 
