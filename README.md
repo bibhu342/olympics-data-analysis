@@ -188,7 +188,7 @@ Generates Python plots
 Exports summary CSVs
 
 ## 📘 Requirements
-
+```
 shell
 Copy code
 pandas>=2.0.0
@@ -200,6 +200,7 @@ sqlite-utils>=3.36.0
 jupyterlab>=4.0.0
 psycopg[binary]>=3.2.0
 ipykernel>=6.28.0
+```
 
 👨‍💻 Author
 Bibhudendu Behera
@@ -211,4 +212,5 @@ Bibhudendu Behera
 
 📘 License
 MIT License © 2025 Bibhudendu Behera
+
 
