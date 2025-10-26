@@ -124,6 +124,8 @@ Using Python-based exploratory data analysis, regression, and KPI design, it tra
 
 ## 📁 Project Structure
 
+```
+
 olympics-data-analysis/
 ├── data/
 │   ├── athlete_events.csv
@@ -142,7 +144,7 @@ olympics-data-analysis/
 │
 └── README.md
 
----
+```
 
 ## 👨‍💻 Author
 **Bibhudendu Behera**  
@@ -156,5 +158,6 @@ olympics-data-analysis/
 
 ## 📘 License
 MIT License © 2025 Bibhudendu Behera
+
 
 
